@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+
+Sitemap: https://luuu-ca.github.io/larimessa-site/sitemap.xml

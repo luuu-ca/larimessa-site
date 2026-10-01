@@ -3,8 +3,52 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>La Rimessa — A home for cars on Lake Maggiore</title>
-<meta name="description" content="A private home for remarkable automobiles and the people who love to drive them. On Lake Maggiore. Opening soon — founding memberships by request.">
+<title>La Rimessa — Private Car Storage on Lake Maggiore</title>
+<meta name="description" content="La Rimessa is a private home for remarkable automobiles on Lake Maggiore, in Meina. A members' club for cars and the people who love to drive them — opening soon.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#030100">
+<!-- NOTE: update the 5 URLs below to https://larimessa.com when the production domain goes live -->
+<link rel="canonical" href="https://luuu-ca.github.io/larimessa-site/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Rimessa">
+<meta property="og:title" content="La Rimessa — A home for cars on Lake Maggiore">
+<meta property="og:description" content="A private members' club for remarkable automobiles, in Meina on Lake Maggiore. Opening soon — founding memberships by request.">
+<meta property="og:url" content="https://luuu-ca.github.io/larimessa-site/">
+<meta property="og:image" content="https://luuu-ca.github.io/larimessa-site/la-rimessa-meina-lago-maggiore.jpg">
+<meta property="og:image:width" content="1412">
+<meta property="og:image:height" content="804">
+<meta property="og:image:alt" content="La Rimessa in Meina at dusk, on Lake Maggiore">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="La Rimessa — A home for cars on Lake Maggiore">
+<meta name="twitter:description" content="A private members' club for remarkable automobiles, in Meina on Lake Maggiore. Opening soon.">
+<meta name="twitter:image" content="https://luuu-ca.github.io/larimessa-site/la-rimessa-meina-lago-maggiore.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "La Rimessa",
+  "description": "A private home for remarkable automobiles and the people who love to drive them, on Lake Maggiore in Meina.",
+  "url": "https://luuu-ca.github.io/larimessa-site/",
+  "logo": "https://luuu-ca.github.io/larimessa-site/logo-black.svg",
+  "image": "https://luuu-ca.github.io/larimessa-site/la-rimessa-meina-lago-maggiore.jpg",
+  "email": "info@larimessa.it",
+  "telephone": "+39 347 220 6614",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Torino 22",
+    "addressLocality": "Meina",
+    "addressRegion": "NO",
+    "postalCode": "28046",
+    "addressCountry": "IT"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 45.7905, "longitude": 8.5447 },
+  "areaServed": "Lago Maggiore",
+  "sameAs": ["https://www.instagram.com/larimessa.meina/"]
+}
+</script>
 <!-- Brand typeface: ITC Avant Garde Gothic Pro (Adobe Fonts / Typekit) -->
 <link rel="stylesheet" href="https://use.typekit.net/zca8oaq.css">
 <!-- Fallback: Jost (Google Fonts) — near-identical geometric sans -->
@@ -28,6 +72,7 @@
     --gutter:clamp(1.25rem,5vw,6rem);
   }
   *,*::before,*::after{box-sizing:border-box;}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
   body{
     margin:0;background:var(--base);color:var(--primary);
     font-family:var(--font);font-weight:300;line-height:1.6;
@@ -143,12 +188,13 @@
     <!-- 01 · OPENING -->
     <section class="hero">
       <div class="hero-head">
+        <h1 class="sr-only">La Rimessa — private car storage on Lake Maggiore, Meina</h1>
         <img class="hero-logo" id="heroLogo" src="logo-white.svg" alt="La Rimessa">
         <p class="hero-tag">A home for cars and those who love to drive them.</p>
       </div>
       <div class="hero-media-wrap">
         <div class="hero-media" id="heroMedia">
-          <img src="hero.jpg" alt="La Rimessa in Meina at dusk, the illuminated sign above the entrance on Lake Maggiore.">
+          <img src="la-rimessa-meina-lago-maggiore.jpg" width="1412" height="804" fetchpriority="high" decoding="async" alt="La Rimessa in Meina at dusk — private car storage on Lake Maggiore, illuminated sign above the entrance.">
           <div class="hero-scrim"></div>
         </div>
       </div>
